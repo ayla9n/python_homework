@@ -170,7 +170,7 @@ def write_sorted_list():
         with open("./minutes.csv", "w") as file:
             writer = csv.writer(file)
             writer.writerow(minutes1["fields"])
-            writer.writerows(minutes_list)
+            writer.writerows(converted_list)
 
     except Exception as e:
         print(f"An exception occurred {e}")
