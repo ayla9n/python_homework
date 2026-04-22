@@ -3,7 +3,7 @@ import csv
 #Task 3: List Comprehensions Practice
 
 try: 
-    with open("./csv/employees.csv", "r") as file:
+    with open("../csv/employees.csv", "r") as file:
         reader = csv.reader(file)
         employee_list = list(reader)
 

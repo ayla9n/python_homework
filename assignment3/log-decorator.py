@@ -13,8 +13,8 @@ def logger_decorator(func):
     def wrapper(*args, **kwargs):
         return_value = func(*args, **kwargs)
         logger.log(logging.INFO, f"function: {func.__name__}\n")
-        logger.log(logging.INFO, f"positional parameters: {list(args) if args else "none"}\n")
-        logger.log(logging.INFO, f"keyword parameters: {kwargs if kwargs else "none"}\n")
+        logger.log(logging.INFO, f"positional parameters: {list(args) if args else 'none'}\n")
+        logger.log(logging.INFO, f"keyword parameters: {kwargs if kwargs else 'none'}\n")
         logger.log(logging.INFO, f"return: {return_value}\n")
         return return_value
     return wrapper
