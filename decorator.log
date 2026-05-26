@@ -1,0 +1,24 @@
+function: greeting
+
+positional parameters: none
+
+keyword parameters: none
+
+return: Hello World!
+
+function: test_args
+
+positional parameters: ['what', 67, 'the', 'sigma']
+
+keyword parameters: none
+
+return: True
+
+function: test_kwargs
+
+positional parameters: none
+
+keyword parameters: {'name': 'puppy', 'age': 5, 'color': 'golden'}
+
+return: <function logger_decorator at 0x000002356442F9C0>
+

@@ -1,0 +1,6 @@
+Task 3/ Task 4
+When saving the scraped data to a dataframe, some of the year entries included a language. Inorder to resolve this, i had to remove the text after the year
+
+
+Task 6
+Figuring out how to get to the top 10 list page was difficult. I opted to find a way to scarpe the most current link from the main page and then usee that link beacuse the lsit is likely bound to change yearly.
