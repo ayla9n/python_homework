@@ -63,9 +63,9 @@ print(df)
 
 #Task 4: Write out the Data
 
-df.to_csv('python_homework/assignment8/get_books.csv', index=False)
+df.to_csv('get_books.csv', index=False)
 
-with open('python_homework/assignment8/get_books.json', 'w', encoding='utf-8') as json_file:
+with open('get_books.json', 'w', encoding='utf-8') as json_file:
     json.dump(results, json_file, indent=4)
 
 driver.quit()
