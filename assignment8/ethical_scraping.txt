@@ -1,0 +1,15 @@
+#Task 5: Ethical Web Scraping
+
+Which sections of the website are restricted for crawling? 
+/w/
+/api/
+/trap/
+/wiki/Special:
+
+Are there specific rules for certain user agents?
+some bots are blocked such as : MJ12bot, UbiCrawler, wget, HTTrack
+site copying blocks like SemrushBot is allowed but given a Crawl-delay: 5
+
+Reflect on why websites use robots.txt and write 2-3 sentences explaining its purpose and how it promotes ethical scraping. Put these in ethical_scraping.txt in your python_homework directory.
+
+Websites use robots.txt file to give rules and restrictions to govern safe ethical wbscraping. These rules can help prevent websited form getting too many requests and protect the restricted sections from being scrapes. It helps with adhering to website policies and helps prevent servers from being overloaded.
